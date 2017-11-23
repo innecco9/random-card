@@ -1,1 +1,2 @@
-window.onload=function(){ alert('hello webpack'); }
+
+import './css/styles.css';

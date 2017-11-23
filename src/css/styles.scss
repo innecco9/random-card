@@ -1,0 +1,51 @@
+body {
+    background: green;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.card{
+    width: 300px;
+    height: 440px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+    
+
+.suit-spades::before {
+    content: "\2660";
+    font-size: 90px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: black;
+    
+}
+
+.suit-spades::after {
+    content: "\2660";
+    font-size: 90px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: black;
+    transform: rotate(180deg);
+    
+}
+.number {
+    font: 150px/440px Times New Roman, serif;
+    text-align: center;
+    display: block;
+    height: 100px;
+
+}
+
+
+
